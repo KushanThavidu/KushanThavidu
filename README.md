@@ -70,5 +70,5 @@
 
 <h3 align="left">📊 GitHub Stats:</h3>
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=thaviya97&show_icons=true&locale=en&layout=compact" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=KushanThavidu&show_icons=true&locale=en&layout=compact" alt="Top Languages" />
 </p>
