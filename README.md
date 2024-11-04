@@ -5,6 +5,10 @@
   <img align="right" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif" alt="Coding" width="350" />
 </div>
 
+<div align="center">
+  <div id="animation" class="text"></div>
+</div>
+
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=thaviya97&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views" />
   <a href="https://twitter.com/thavi" target="_blank">
