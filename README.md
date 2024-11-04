@@ -72,3 +72,8 @@
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=KushanThavidu&show_icons=true&locale=en&layout=compact" alt="Top Languages" />
 </p>
+
+<h3 align="left">🐍 GitHub Contribution Snake:</h3>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/salesp07/salesp07/output/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake" />
+</p>
