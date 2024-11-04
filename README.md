@@ -5,10 +5,6 @@
   <img align="right" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif" alt="Coding" width="350" />
 </div>
 
-<div align="center">
-  <div id="animation" class="text"></div>
-</div>
-
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=thaviya97&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views" />
   <a href="https://twitter.com/thavi" target="_blank">
@@ -76,26 +72,3 @@
 <p align="center">
   <img src="https://raw.githubusercontent.com/salesp07/salesp07/output/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake" />
 </p>
-
-<script>
-    const message = "Thank you for visiting! Shoot me a message on LinkedIn! I'm always down to collab!";
-    const textContainer = document.getElementById('animation');
-    let i = 0;
-    const typeSpeed = 100;  // Speed in ms per letter
-
-    function typeWriter() {
-        if (i < message.length) {
-            textContainer.textContent += message.charAt(i);
-            i++;
-            setTimeout(typeWriter, typeSpeed);
-        } else {
-            setTimeout(() => {
-                textContainer.textContent = '';
-                i = 0;
-                typeWriter();
-            }, 3000); // Delay before the text disappears and retypes
-        }
-    }
-
-    typeWriter();
-</script>
