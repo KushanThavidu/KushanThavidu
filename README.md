@@ -68,12 +68,30 @@
   <a href="https://spring.io/" target="_blank"><img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="Spring" width="40" /></a>
 </p>
 
-<h3 align="left">📊 GitHub Stats:</h3>
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=KushanThavidu&show_icons=true&locale=en&layout=compact" alt="Top Languages" />
-</p>
-
 <h3 align="left">🐍 GitHub Contribution Snake:</h3>
 <p align="center">
   <img src="https://raw.githubusercontent.com/salesp07/salesp07/output/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake" />
 </p>
+
+<script>
+    const message = "Thank you for visiting! Shoot me a message on LinkedIn! I'm always down to collab!";
+    const textContainer = document.getElementById('animation');
+    let i = 0;
+    const typeSpeed = 100;  // Speed in ms per letter
+
+    function typeWriter() {
+        if (i < message.length) {
+            textContainer.textContent += message.charAt(i);
+            i++;
+            setTimeout(typeWriter, typeSpeed);
+        } else {
+            setTimeout(() => {
+                textContainer.textContent = '';
+                i = 0;
+                typeWriter();
+            }, 3000); // Delay before the text disappears and retypes
+        }
+    }
+
+    typeWriter();
+</script>
